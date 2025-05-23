@@ -1,0 +1,39 @@
+# Binários gerados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Diretório de dependências (caso use Go Modules e alguns gerenciadores criem pastas extras)
+vendor/
+
+# Arquivos temporários
+*.log
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Arquivos de build do Go
+*.a
+
+# Diretórios que o Go pode gerar (opcional)
+bin/
+pkg/
+
+# IDEs/editores
+.vscode/
+.idea/
+*.code-workspace
+
+# GoLand & JetBrains
+*.iml
+*.ipr
+*.iws
+out/
+
+# Testes
+coverage.out
