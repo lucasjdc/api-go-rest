@@ -10,10 +10,10 @@ import (
 func main() {
 
 	models.Personalidades = []models.Personalidade {
-		{Nome: "Cacau", Historia: "Historia 1"},
-		{Nome: "Fiona", Historia: "Historia 2"},
-		{Nome: "Luna", Historia: "Historia 3"},
-		{Nome: "Rex", Historia: "Historia 3"},
+		{Id: 1, Nome: "Cacau", Historia: "Historia 1"},
+		{Id: 2, Nome: "Fiona", Historia: "Historia 2"},
+		{Id: 3, Nome: "Luna", Historia: "Historia 3"},
+		{Id: 4, Nome: "Rex", Historia: "Historia 3"},
 	}
 	fmt.Println("Iniciando o servidor Rest com Go")
 	routes.HandleResquest()
